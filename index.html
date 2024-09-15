@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hasini's Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="peak logo.png" alt="The Hasini's Market Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#cart">Cart (0)</a>
+        </div> 
+    <div class="order">
+        <a href="#orders">Orders (0)</a>
+    </div>   
+    
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>Handcrafted with Love</h1>
+            <p>Discover unique, handmade treasures crafted by skilled Hasini.</p>
+        </div>
+    </section>
+    <marquee>
+         <h2>
+            Today 50 % offer!  offer! offer!    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hurry up !!!  Hurry up !!!
+        </h2>
+    </marquee> 
+    <section id="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="ceramic_mug.jpg" alt="ceramic_mug">
+                <h3>Rustic Coffee Cup</h3>
+                <p>₹200</p>
+                <button onclick="addToCart('ceramic_mug', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('Ceramic Mug', 500)"> <b> Buy Now </b></button>
+            </div>       
+            <div class="product">
+                <img src="bangles.jpg" alt="bangles">
+                <h3>Bangles</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('bangles', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('bangles', 500)"><b>  Buy Now </b></button>
+            </div>         
+            <div class="product">
+                <img src="bottle.jpg" alt="bottle">
+                <h3>Glass Wall Art</h3>
+                <p>₹500</p>
+                <button onclick="addToCart('bottle', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('bottle', 500)"><b>  Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="ceramic pot set.jpg" alt="ceramic pot set">
+                <h3>Ceramic pot set</h3>
+                <p>₹550</p>
+                <button onclick="addToCart('ceramic pot set', 500)"><b> ADD TO CART</b></button>
+                <button onclick="BuyNow('ceramic pot set', 500)"><b>  Buy Now </b></button>
+            </div>          
+             <div class="product">
+                <img src="ceramic set.jpg" alt="ceramic set">
+                <h3>Ceramic Dinner set</h3>
+                <p>₹2100</p>
+                <button onclick="addToCart('ceramic set', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('ceramic set', 500)"><b> Buy Now </b></button>
+            </div>          
+            <div class="product">
+                   <img src="chain color.jpg" alt="chain color">
+                   <h3> Multicolor Beaded Chain</h3>
+                   <p>₹150</p>
+                   <button onclick="addToCart('chain color', 500)"><b> ADD TO CART </b></button>
+                   <button onclick="BuyNow('chain color', 500)"><b> Buy Now </b></button>
+               </div>            
+            <div class="product">
+                <img src="cup.jpg" alt="cup">
+                <h3>Tea Cup</h3>
+                <p>₹300</p>
+                <button onclick="addToCart('cup', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('cup', 500)"><b>  Buy Now </b></button>
+            </div>          
+             <div class="product">
+                <img src="decerative item.jpg" alt="decerative item">
+                <h3>Decerative Status</h3>
+                <p>₹200</p>
+                <button onclick="addToCart('decerative item', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('decerative item', 500)"><b>  Buy Now </b></button>
+            </div>          
+             <div class="product">
+                <img src="dream  hanger.jpg" alt="dream  hanger">
+                <h3>Bohemian Dream Catcher</h3>
+                <p>₹300</p>
+                <button onclick="addToCart('dream  hanger', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('dream  hanger', 500)"><b>  Buy Now </b></button>
+            </div>           
+             <div class="product">
+                <img src="gift raper.jpg" alt="gift raper">
+                <h3>Gift raper</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('gift raper', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('gift raper', 500)"><b>  Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="glass light.jpg" alt="glass light">
+                <h3>Glass light</h3>
+                <p>₹400</p>
+                <button onclick="addToCart('glass light', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('glass light', 500)"><b>  Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="jwelleryset.jpg" alt="jwelleryset">
+                <h3>jwelleryset</h3>
+                <p>₹1000</p>
+                <button onclick="addToCart('jwelleryset', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('jwelleryset', 500)"><b> Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="head band.jpg" alt="head band">
+                <h3>Head Band</h3>
+                <p>₹100</p>
+                <button onclick="addToCart('head band', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('head band', 500)"><b>  Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="owl wood.jpg" alt="owl wood">
+                <h3>Owl wood</h3>
+                <p>₹600</p>
+                <button onclick="addToCart('owl wood', 500)"><b>ADD TO CART </b></button>
+                <button onclick="BuyNow('owl wood', 500)"><b>  Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="rose wall hanger.jpg" alt="rose wall hanger">
+                <h3>Rose Wall Hanger</h3>
+                <p>₹300</p>
+                <button onclick="addToCart('rose wall hanger', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('rose wall hanger', 500)"><b>  Buy Now </b></button>
+            </div>
+             <div class="product">
+                <img src="wooden.jpg" alt="wooden">
+                <h3>wooden Wall Hanger</h3>
+                <p>₹250</p>
+                <button onclick="addToCart('wooden', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wooden', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="tote whte.jpg" alt="tote whte">
+                <h3>white Hand Bag</h3>
+                <p>₹1500</p>
+                <button onclick="addToCart('tote whte', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('tote whte', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="paper plate.jpg" alt="paper plate">
+                <h3>Paper plate</h3>
+                <p>₹500</p>
+                <button onclick="addToCart('paper plate', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('paper plate', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="paper cup.jpg" alt="Ceramic Mug">
+                <h3>Paper cup</h3>
+                <p>₹400</p>
+                <button onclick="addToCart('paper cup', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('paper cup', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="ear ring set.jpg" alt="ear ring set">
+                <h3>Ear Ring Set</h3>
+                <p>₹70</p>
+                <button onclick="addToCart('ear ring set', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('ear ring set', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="men hand craft.jpg" alt="men hand craft">
+                <h3>Wrist Bracelet</h3>
+                <p>₹170</p>
+                <button onclick="addToCart('men hand craft', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('men hand craft', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="wall pin.jpg" alt="wall pin">
+                <h3>Wall pin</h3>
+                <p>₹200</p>
+                <button onclick="addToCart('wall pin', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wall pin', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="papaer bowle.jpg" alt="papaer bowle">
+                <h3>Papaer bowle</h3>
+                <p>₹600</p>
+                <button onclick="addToCart('papaer bowle', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('papaer bowle', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="wall hanger.jpg" alt="wall hanger">
+                <h3>Wall Decorative Photo</h3>
+                <p>₹400</p>
+                <button onclick="addToCart('wall hanger', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wall hanger', 500)"><b> Buy Now </b></button>
+            </div>
+           
+            <div class="product">
+                <img src="wall craft.jpg" alt="wall craft">
+                <h3>wall craft</h3>
+                <p>₹100</p>
+                <button onclick="addToCart('wall craft', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wall craft', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="tote hand.jpg" alt="tote hand">
+                <h3> HandBag</h3>
+                <p>₹200</p>
+                <button onclick="addToCart('tote hand', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('tote hand', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="sarf.jpg" alt="sarf">
+                <h3>Shalwar Ensemble</h3>
+                <p>₹380</p>
+                <button onclick="addToCart('sarf', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('sarf', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="tote blue.jpg" alt="tote blue">
+                <h3>Hand Bag </h3>
+                <p>₹450</p>
+                <button onclick="addToCart('tote blue', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('tote blue', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="hand.jpg" alt="hand">
+                <h3>Flower mug</h3>
+                <p>₹250</p>
+                <button onclick="addToCart('hand', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('hand', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="hand basket.jpg" alt="hand basket">
+                <h3>Hand Basket</h3>
+                <p>₹500</p>
+                <button onclick="addToCart('hand basket', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('hand basket', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="wooden storage.jpg" alt="wooden storage">
+                <h3>Compact Storage Organizer</h3>
+                <p>₹900</p>
+                <button onclick="addToCart('wooden storage', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wooden storage', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="wrist chain.jpg" alt="wooden storage">
+                <h3>Beaded Wrist Bracelet</h3>
+                <p>₹300</p>
+                <button onclick="addToCart('wrist chain', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('wrist chain', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="ornament 3.jpg" alt="ornament 3">
+                <h3>Jwellery set</h3>
+                <p>₹900</p>
+                <button onclick="addToCart('ornament 3', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('ornament 3', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="glass wall.jpg" alt="glass wall">
+                <h3>Glass Wall</h3>
+                <p>₹600</p>
+                <button onclick="addToCart('glass wall', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('glass wall', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="mud pot.jpg" alt="mud pot">
+                <h3>Mud Pot</h3>
+                <p>₹1000</p>
+                <button onclick="addToCart('mud pot', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('mud pot', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="walet 3.jpg" alt="walet 3">
+                <h3>Wallet</h3>
+                <p>₹320</p>
+                <button onclick="addToCart('walet 3', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('walet 3', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="gemstone ring.jpg" alt="gemstone ring">
+                <h3>Gemstone Ring</h3>
+                <p>₹720</p>
+                <button onclick="addToCart('gemstone ring', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('gemstone ring', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="ear rings.jpg" alt="ear rings">
+                <h3>Ear Rings</h3>
+                <p>₹120</p>
+                <button onclick="addToCart('ear rings', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('ear rings', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="knitted toys.jpg" alt="knitted toys">
+                <h3>Knitted Plush Toys</h3>
+                <p>₹820</p>
+                <button onclick="addToCart('knitted toys', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('knitted toys', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="pink necklace.jpg" alt="pink necklace">
+                <h3>Beaded Necklace</h3>
+                <p>₹320</p>
+                <button onclick="addToCart('pink necklace', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('pink necklace', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="side bag.jpg" alt="side bag">
+                <h3>Boho Chic Side Bag</h3>
+                <p>₹1320</p>
+                <button onclick="addToCart('side bag', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('side bag', 500)"><b> Buy Now </b></button>
+            </div>
+            <div class="product">
+                <img src="silk necklace.jpg" alt="silk necklace">
+                <h3>Silk Thread Necklace</h3>
+                <p>₹320</p>
+                <button onclick="addToCart('silk necklace', 500)"><b> ADD TO CART </b></button>
+                <button onclick="BuyNow('silk necklace', 500)"><b> Buy Now </b></button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Our Story</h2>
+        <p>At The Hasini's Market, we take pride in celebrating the rich craftsmanship and creativity of the talented artisans from the local community. 
+            Each product in our collection is more than just a piece; it is a reflection of tradition, dedication, and artistic passion, meticulously handcrafted to showcase the essence of cultural heritage.
+             Our mission is to bring these unique, carefully curated creations into your home, each with its own story to tell. By supporting us, you are not only embracing exquisite craftsmanship but also empowering artisans by helping preserve their craft and legacy.
+             Join us in celebrating these skilled creators and bringing their timeless art into your everyday life.</p>
+    </section>
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit"> Send Feedback</button>
+        </form>
+    </section>
+    
+    <div class="question">
+        <section id="help">
+        <div class="help">
+            <h1>Need Assistance?</h1>
+            <input type = "radio" name ="help"  value ="Y" checked> Yes
+        <input type = "radio" name ="help"  value ="N" checked> No<br>
+        <p><button class="submit">Submit</button>
+        </div>
+    </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h3>CONTENT</h3>
+                        <ul>
+                            <li><a href="#">Calendar of festivities</a></li>
+                            <li><a href="#">New assets</a></li>
+                            <li><a href="#">The most popular content</a></li>
+                            <li><a href="#">Search trends</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>INFORMATION</h3>
+                        <ul>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Sell your content</a></li>
+                            <li><a href="#">Brand guidelines</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>LEGAL</h3>
+                        <ul>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">License agreement</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Copyright information</a></li>
+                            <li><a href="#">Cookies policy</a></li>
+                            <li><a href="#">Cookies settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>SUPPORT</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Search guide</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>SOCIAL MEDIA</h3>
+                        <div class="social-icons">
+                            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+                        </div>
+                        <button class="signup-btn" >Sign up</button>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 The Hasini's Market. All rights reserved.</p>
+                </div>
+            </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
